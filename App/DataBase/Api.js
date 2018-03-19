@@ -1,5 +1,5 @@
 import axios from 'axios';
-let base_url = "http://appsdata2.cloudapp.net/jwt-demo/public/api/";
+let base_url = "your base url";
 
 let  _httpPost = function(url, data) {
   let final_url = base_url + url;
